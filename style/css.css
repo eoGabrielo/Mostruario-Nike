@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0A7F99;
+    font-family: "Roboto";
+}
+
+.titulo{
+    margin: 2% auto;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 15px;
+}
+
+/* NAV BAR */
+
+
+
+/* FOTO NIKE */
+
+.fotoNike{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3px;
+
+}
+
+/* FOTO NIKE */
+
+/*Nav bar*/
+
+.navBar{
+    display: flex;
+    width: 95%;
+    background-color: #086e85;
+    color: #eebb8e;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10rem;
+    margin-top: 0.1%;
+    position: fixed;
+    left: 2.5%;
+}
+
+.navBar p{
+    font-size: 2rem;
+}
+
+.logo{
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navBar div{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.navBar div ul li{
+    list-style: none;
+    margin-left: 15px;
+    background-color: #eebb8e;
+    border-radius: 1rem;
+    padding: 3px 15px;
+}
+
+.navBar div ul{
+    display: flex;
+    align-items: center;
+}
+
+.navBar div ul li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.952);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.navBar div ul li a:hover{
+    color:#086e85;
+    transition: 1s;
+}
+
+.navBar .logo img{
+    cursor: pointer;
+}
+
+.zoom{
+    cursor: pointer;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+/*Nav bar*/
+
+.botaoInicio{
+    text-decoration: none;
+    color:#07070783;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #eebb8e;
+    border-radius: 1rem;
+    padding: 3px 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.botaoInicio:hover{
+    cursor: pointer;
+    color: white;
+    transition: 2s;
+}
+
+/* DIV TENIS */
+
+.dentro p:hover:nth-child(2){
+    cursor: pointer;
+}
+
+.divTenisFilho img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 2rem;
+}
+
+.divTenis{
+    display: flex;
+    max-width: 1400px;
+    margin: 2% auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.divTenisFilho{
+    width: 300px;
+    margin: 10px 13px;
+    background-color: white;
+    flex-grow: 1;
+    box-shadow: 5px 5px 20px #09364191;
+    display: flex;
+    flex-direction: column;
+}
+
+.divTenisFilho img{
+    width: 100%;
+}
+
+.divTenisFilho p{
+    color: #093641e0;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: white;
+    padding: 15px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divTenisFilho span{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #b48c69;
+}
+
+.dentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+
+img{
+    width: 100%;
+    
+}
+
+@media (max-width: 1350px) {
+
+    .divTenisFilho{
+        width: 300px;
+        margin: 10px 6px;
+        background-color: white;
+    }
+    
+}
+
+@media (max-width: 1270px) {
+
+    .divTenisFilho{
+        width: 280px;
+        margin: 10px px;
+        background-color: white;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+
+
+    .divTenisFilho{
+        width: 300px;
+        margin: 10px 5px;
+        background-color: white;
+    }
+
+    .titulo{
+        font-size: 1.2rem;
+    }
+
+    
+    
+}
+
+@media (max-width: 955px){
+
+    .navBar div ul li a{
+        font-size: 1.2rem;
+    }
+
+    .navBar{
+        font-size: 1.2rem;
+    }
+
+    .divTenis{
+        width: 100%;
+    }
+
+    .divTenisFilho{
+        width: 30%;
+        margin: 10px 5px;
+    }
+
+    .titulo{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 720px){
+
+    .navBar div ul li a{
+        font-size: 1.2rem;
+    }
+
+    .navBar{
+        font-size: 1.2rem;
+    }
+
+    .divTenisFilho{
+        width: 47%;
+    }
+
+    .titulo{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 500px){
+ 
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+    }
+
+
+    .divTenisFilho{
+        width: 90%;
+    }
+
+    .navBar div ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 11px;
+    }
+
+    .navBar div ul li{
+        margin: 5px;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+
+/* DIV TENIS */
+
+/* DIV CAMISAS */
+
+.divPaiCamisa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.divFilhoCamisa{
+    width: 30%;
+    margin: 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-shadow: 5px 5px 20px #09364191;
+}
+
+.textoPrecoCamisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+
+}
+
+.divFilhoCamisa p{
+    color: #093641e0;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: white;
+    padding: 15px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divFilhoCamisa span{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #393F61;
+}
+
+.divPaiCamisa img:hover{
+    cursor: pointer;
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.divPaiCamisa p:hover:nth-child(2){
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+@media (max-width: 850px){
+    .divFilhoCamisa{
+        width: 45%;
+        margin: 10px 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .divFilhoCamisa{
+        width: 97.7%;
+        margin: 10px 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
