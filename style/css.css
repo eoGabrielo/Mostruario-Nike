@@ -87,15 +87,16 @@ body{
     color:rgba(255, 255, 255, 0.952);
     font-weight: 700;
     font-size: 1.2rem;
+    transition: 1s;
 }
 
 .navBar div ul li a:hover{
     color:#086e85;
-    transition: 1s;
 }
 
 .navBar .logo img{
     cursor: pointer;
+    transition: 1s;
 }
 
 .zoom{
@@ -122,6 +123,7 @@ body{
     position: fixed;
     right: 20px;
     bottom: 20px;
+    transition: 1.1s;
 
 }
 
@@ -130,7 +132,6 @@ body{
     color: white;
     border-radius: 1rem;
     transform: scale(1.2);
-    transition: 1.1s;
 }
 
 /* DIV TENIS */
@@ -143,7 +144,6 @@ body{
     cursor: pointer;
     border-radius: 1rem;
     transform: scale(1.1);
-    transition: 0.6s;
 }
 
 .divTenis{
@@ -168,6 +168,7 @@ body{
 
 .divTenisFilho img{
     width: 100%;
+    transition: 0.6s;
 }
 
 .divTenisFilho p{
@@ -333,6 +334,7 @@ img{
     flex-direction: column;
     flex-grow: 1;
     box-shadow: 5px 5px 20px #09364191;
+    
 }
 
 .textoPrecoCamisa{
@@ -360,11 +362,14 @@ img{
     color: #393F61;
 }
 
+.divPaiCamisa img{
+    transition: 0.5s;
+}
+
 .divPaiCamisa img:hover{
     cursor: pointer;
     border-radius: 1rem;
     transform: scale(1.1);
-    transition: 0.6s;
 }
 
 .divPaiCamisa p:hover:nth-child(2){
@@ -405,6 +410,18 @@ img{
     justify-content: space-evenly;
 }
 
+
+.divFilhoBlusa img:hover{
+    cursor: pointer;
+    border-radius: 1rem;
+    transform: scale(1.1);
+    
+}
+
+.divFilhoBlusa img{
+    transition: 0.5s;
+}
+
 .divFilhoBlusa{
     display: flex;
     flex-direction: column;
@@ -412,13 +429,6 @@ img{
     margin: 10px 5px;
     text-align: center;
     background-color: white;
-}
-
-.divFilhoBlusa img:hover{
-    cursor: pointer;
-    border-radius: 1rem;
-    transform: scale(1.1);
-    transition: 0.6s;
 }
 
 .textosBlusa{
@@ -473,6 +483,7 @@ img{
     list-style: none;
     line-height: 35px;
     text-align: center;
+    transition: 0.4s;
 }
 
 .divPaiRodape a{
@@ -484,7 +495,6 @@ img{
 .divPaiRodape ul li:hover{
     cursor: pointer;
     transform: scale(1.4);
-    transition: 0.4s;
     
 }
 
